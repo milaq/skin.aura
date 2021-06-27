@@ -234,6 +234,7 @@
                 <onclick>SetFocus(9005)</onclick>
                 <onclick>Select</onclick>
                 <visible>Control.IsEnabled(9005)</visible>
+                <visible>System.HasAddon(script.extendedinfo)</visible>
             </item>
             <!-- Special Features -->
             <item>

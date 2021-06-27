@@ -2,7 +2,6 @@
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
-        <import addon="script.extendedinfo" version="3.0.0" />
         <import addon="script.image.resource.select" version="0.0.5" />
         <import addon="resource.images.studios.white" version="0.0.10" />
         <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />

@@ -396,6 +396,7 @@
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
                         <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" />
+                        <param name="visible" value="System.HasAddon(script.extendedinfo)" />
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.DirectorMovies)" />
                     </include>
 
@@ -423,6 +424,7 @@
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
                         <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" />
+                        <param name="visible" value="System.HasAddon(script.extendedinfo)" />
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.SimilarMovies)" />
                     </include>
 
@@ -436,6 +438,7 @@
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
                         <param name="onclick" value="RunScript(script.extendedinfo,info=extendedtvinfo,name=$INFO[ListItem.Label])" />
+                        <param name="visible" value="System.HasAddon(script.extendedinfo)" />
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.SimilarTvShows)" />
                     </include>
 
@@ -449,6 +452,7 @@
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
                         <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" />
+                        <param name="visible" value="System.HasAddon(script.extendedinfo)" />
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.StudioMovies)" />
                     </include>
 
@@ -949,6 +953,7 @@
                         <label>$LOCALIZE[31178]</label>
                         <onclick>SetFocus(9950)</onclick>
                         <onclick>RunScript(script.extendedinfo,info=extendedactorinfo,name=$INFO[Container(50).ListItem.Label])</onclick>
+                        <visible>System.HasAddon(script.extendedinfo)</visible>
                         <include>Defs_Context_Button</include>
                     </control>
                 </control>
