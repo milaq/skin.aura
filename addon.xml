@@ -18,7 +18,7 @@
         <source>https://github.com/jurialmunkey/skin.aura</source>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+            <fanart>fanart.png</fanart>
             <screenshot>resources/screenshot-01.jpg</screenshot>
             <screenshot>resources/screenshot-02.jpg</screenshot>
             <screenshot>resources/screenshot-03.jpg</screenshot>
