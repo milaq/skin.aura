@@ -62,7 +62,6 @@
         <param name="pad" default="0" />
         <param name="showtext" default="true" />
         <param name="colordiffuse" default="ff888888" />
-        <param name="visible" default="String.StartsWith(ListItem.Icon,Default)" />
         <definition>
             <control type="group">
                 <left>$PARAM[pad]</left>
